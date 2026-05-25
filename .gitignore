@@ -1,0 +1,57 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.env.*
+.env.local
+.env.*.local
+
+# Redis dumps
+dump.rdb
+*.rdb
+
+# Build / cache
+dist/
+build/
+.next/
+.turbo/
+coverage/
+
+# Logs
+*.log
+logs/
+
+# Agent / scratch files (should never be in public repos)
+agents.md
+AGENTS.md
+.claude/
+.cursor/
+
+# Swift / Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+
+# Backup files
+*.bak
+*.backup
+*backp*
+*~
+
+# Cursor rules (AI smell)
+*.mdc
+rules/
+
+# App config (secrets, never commit)
+Config.plist

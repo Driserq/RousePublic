@@ -1,0 +1,5 @@
+# This is a placeholder for the 30-second fallback alarm sound
+# In a real implementation, this would be a binary audio file
+# For now, we'll create it programmatically in the TTSService
+
+
